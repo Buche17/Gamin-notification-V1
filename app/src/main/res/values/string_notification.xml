@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Fichier XML créé par : Axel
+    Groupe : Intégrateur
+    Intégrateur : Axel
+    Date de création : 2023-12
+    Description : contenue de toutes les toutes les notifications
+    Version : v4
+    Dernière modification : 2023-01-17
+-->
+
+<resources>
+    <string name="Titre_Notif">RunIt</string>
+
+    <!-- motivation_messages_before -->
+    <string-array name="Si_Seance__3h_avant">
+        <item>Tu as une séance dans 3h, $s Il serait bien de manger maintenant.</item>
+        <item>$s Il est important de bien s\'hydrater avant, pendant et après les séances.</item>
+        <item>$s, n’oublie pas que tu as prévu une séance de footing dans 3h. </item>
+    </string-array>
+
+    <string name="Si_Seance__la_veille_19h">$s, tu peux vérifier si tout est prêt pour la séance prévue demain matin.</string>
+    <string name="si_fait_beau__le_matin_7h">Il fera beau cet après-midi, c\’est un bon moment pour faire ta séance, $s</string>
+    <string name="Si_Seance_si_il_pleut__le_matin_7h">Il va pleuvoir au moment de la séance prévue, est-ce que tu veux planifier une autre séance, $s ?</string>
+
+    <!-- motivation_messages_after -->
+    <string name="fin_seance">Tu as fini ta séance, c’est un bon moment $s en mangeant un repas équilibré</string>
+
+    <string name="atteint_obj_semaine">Bravo, tu as atteint ton objectif de la semaine. N\'oublie pas de t\'étirer dans 2h, $s</string>
+    <string name="gagne_badge">Félicitations ! Tu as gagné un nouveau badge. Continue comme ça $s </string>
+    <string name="bilan_fin_semaine">Bravo ! La semaine est finie et tu as parcouru un total de $d km, as fait $m minutes d’activité et plus de $c k pas. $s, tu peux continuer à ce rythme.</string>
+
+
+    <!-- Complètes les messages -->
+    <!-- si type 1 -->
+    <string-array name="motivation_messages_promotion">
+        <item>Pour améliorer tes performances.</item>
+        <item>Pour atteindre une meilleure récupération.</item>
+        <item>Pour réussir au mieux ta séance.</item>
+        <item>Pour atteindre tes objectifs.</item>
+        <item>Pour garantir le succès.</item>
+        <item>Pour s’assurer des bons résultats.</item>
+    </string-array>
+
+    <!-- si type 2 -->
+    <string-array name="motivation_messages_prevention">
+        <item>Pour éviter une blessure.</item>
+        <item>Pour réduire les risques d’avoir des mauvais résultats.</item>
+        <item>Pour minimiser les chances d’un échec.</item>
+        <item>Pour minimiser les chances de ne pas réussir</item>
+        <item>Pour prévenir la défaite.</item>
+    </string-array>
+</resources>

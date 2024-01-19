@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gamin-notification-V1</string>
+    <string name="default_notification_channel_id">\"1234\"</string>
+    <string name="scrollview">notification</string>
+    <string name="titre_pannel_accueil_notif">Derniers messages</string>
+</resources>
